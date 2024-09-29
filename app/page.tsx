@@ -5,6 +5,8 @@ import { TOP_NEWS_LIMIT } from "./_constants";
 import ButtonLink from "./_components/ButtonLink";
 import NewsList from "./_components/NewsList";
 
+export const revalidate = 60;
+
 export default async function Home() {
   // tsxファイルはJavaScriptをより扱いやすくした言語（基本的な構文は一緒）なのでJavaScriptの定数や式も当然書ける
   const name = "Yuuya";
