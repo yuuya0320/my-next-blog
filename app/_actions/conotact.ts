@@ -1,5 +1,5 @@
 "use server";
-
+//運用環境でのお問い合わせフォーム送信失敗
 function validateEmail(email: string) {
   const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return pattern.test(email);
